@@ -19,13 +19,15 @@
 </head>
 
 <body>
-    <header>
-        <img src="facts-img.jpg" height="68" width="68" />
-        <h1>This is a Fact application!!!</h1>
+    <header class="header">
+        <div class="logo">
+            <img src="facts-img.jpg" height="68" width="68" />
+            <h1>This is a Fact application!!!</h1>
+        </div>
         <button>Share A Fact</button>
     </header>
 
-    <form>
+    <form class="fact-form">
         <input type="text" placeholder="Share a real fact to the world ...." />
         <span>200</span>
         <input type="text" placeholder="Provide a realiable source for your fact....." />
@@ -48,44 +50,45 @@
             </ul>
         </aside>
         <ul>
-            <li>
-                <p class="fact">
+            <li class="fact">
+                <p>
                     The first AI program to run in the United States also was a checkers program, written in 1952 by
                     Arthur Samuel for the prototype of the IBM 701.
                     <a href="https://www.britannica.com/technology/artificial-intelligence/Alan-Turing-and-the-beginning-of-AI"
                         target="_blank">(Source)</a>
-                    <span class="tag">#technology#</span>
+
                 </p>
-                <div>
+                <span class="tag" style="background-color: #7f1d1d;">#technology#</span>
+                <div class="vote-buttons">
                     <!-- Control+Command+Space will generate emoji in Mac -->
                     <button>👍 <strong>24</strong></button>
                     <button>😽 <strong>8</strong></button>
                     <button>⛔️ <strong>2</strong></button>
                 </div>
             </li>
-            <li>
-                <p class="fact">
+            <li class="fact">
+                <p>
                     For years it was believed that Earth was the only planet in our solar system with liquid water. More
                     recently, NASA revealed its strongest evidence yet that there is intermittent running water on Mars,
                     too!.
                     <a href="https://science.nasa.gov/mars/facts/" target="_blank">(Source)</a>
-                    <span class="tag">#science#</span>
                 </p>
-                <div>
+                <span class="tag" style="background-color: #1d4ed8;">#science#</span>
+                <div class="vote-buttons">
                     <button>👍 <strong>35</strong></button>
                     <button>😽 <strong>4</strong></button>
                     <button>⛔️ <strong>1</strong></button>
                 </div>
             </li>
-            <li>
-                <p class="fact">
+            <li class="fact">
+                <p>
                     There are over 8000+ sports played around the world! Despite this, there were only 33 sports played
                     at the Olympics 2021.
                     <a href="https://www.pixstory.com/story/did-you-know-that-the-longest-cricket-match-in-history-lasted-14-days-it-was-played-between-england/232104"
                         target="_blank">(Source)</a>
-                    <span class="tag">#sports#</span>
                 </p>
-                <div>
+                <span class="tag" style="background-color: #65a30d;">#sports#</span>
+                <div class="vote-buttons">
                     <button>👍 <strong>45</strong></button>
                     <button>😽 <strong>1</strong></button>
                     <button>⛔️ <strong>1</strong></button>
