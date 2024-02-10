@@ -198,6 +198,9 @@ ul {
     
 }
 
+.hidden {
+    display: none !important;
+}
 
 
 .fact-form input,
